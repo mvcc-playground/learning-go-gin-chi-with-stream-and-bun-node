@@ -1,0 +1,19 @@
+{
+  "name": "testejs",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@zod/mini": "^4.0.0-beta.0",
+    "express": "^5.1.0",
+    "fastify": "^5.3.2",
+    "hono": "^4.7.7"
+  }
+}

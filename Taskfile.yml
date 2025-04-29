@@ -1,0 +1,23 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  BASE_URL: http://localhost:8000
+
+tasks:
+  dev:
+    cmds:
+      - go run cmd/server/main.go
+  mux:
+    cmds:
+      - go run cmd/mux/main.go
+  chi:
+    cmds:
+      - go run cmd/chi/main.go
+  gin:
+    cmds:
+      - go run cmd/gin/main.go
+  test:
+    cmds:
+      - go test ./...

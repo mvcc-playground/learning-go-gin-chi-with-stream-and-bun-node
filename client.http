@@ -1,0 +1,10 @@
+@url = http//localhost:8000
+
+### GET listagem de users
+GET {{url}}/users
+
+# ###o
+
+# Content-Type: application/json
+
+
